@@ -232,7 +232,7 @@ public class Main  extends JFrame{
                 return;
             }
 
-            
+
           if (Pattern.matches(IP_Adres,destinationAddress) == false){
               JOptionPane.showMessageDialog(this,
                       "Неправильно введён IP", "Ошибка",
@@ -274,9 +274,6 @@ public class Main  extends JFrame{
                     "Не удалось отправить сообщение", "Ошибка",
                     JOptionPane.ERROR_MESSAGE);
         }
-
-
-
     }
         public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
